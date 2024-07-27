@@ -1,0 +1,53 @@
+.k2d-thin {
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.k2d-extralight {
+    font-family: "K2D", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.k2d-light {
+    font-family: "K2D", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.k2d-regular {
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.k2d-medium {
+    font-family: "K2D", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.k2d-semibold {
+    font-family: "K2D", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.k2d-bold {
+    font-family: "K2D", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.k2d-extrabold {
+    font-family: "K2D", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.k2d-regular-italic {
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}

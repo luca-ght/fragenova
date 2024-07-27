@@ -1,0 +1,6 @@
+body, html {
+    font-family: "K2D", sans-serif;
+    background-image: url("/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
