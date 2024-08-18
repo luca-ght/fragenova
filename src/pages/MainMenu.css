@@ -1,0 +1,183 @@
+.title_box {
+    background: var(--primary-bg);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 25px;
+    border: 2px solid var(--primary-border);
+    padding: 20px;
+    width: 1150px;
+    margin: 0 0 0;
+    box-sizing: border-box;
+    height: 170px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.title_box h2 {
+    color: #929293;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    margin: 0;
+}
+
+.chooser_row {
+    display: flex;
+    gap: 50px;
+}
+
+.chooser {
+    background:  rgba(255, 255, 255, 0.17);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    transition: all 200ms;
+    cursor: pointer;
+    color: #929293;
+}
+
+.chooser h2 {
+    font-size: 120px;
+    margin: 0;
+}
+
+.chooser h3 {
+    font-size: 60px;
+    margin: 0 0 30px 0;
+}
+
+.chooser:hover {
+    transform: scale(102%);
+    filter: brightness(140%);
+}
+
+.chooser:active {
+    transform: scale(97%);
+}
+
+.impressum {
+    color: #929293;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+.privacy {
+    color: #929293;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+
+.impressum:hover {
+    transform: scale(105%);
+    filter: brightness(120%);
+}
+
+.impressum:active {
+    transform: scale(97%);
+}
+
+.privacy:hover {
+    transform: scale(105%);
+    filter: brightness(120%);
+}
+
+.privacy:active {
+    transform: scale(97%);
+}
+
+@media screen and (max-width: 460px){
+    .title_box {
+        background: var(--primary-bg);
+        backdrop-filter: blur( 5px );
+        -webkit-backdrop-filter: blur( 5px );
+        border-radius: 12px;
+        border: 1.7px solid var(--primary-border);
+        padding: 20px;
+        width: 350px;
+        margin: 0 0 0;
+        box-sizing: border-box;
+        height: 80px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        cursor: default;
+    }
+
+    .title_box h2 {
+        color: #929293;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .chooser_row {
+        display: flex;
+        gap: 13px;
+    }
+
+    .chooser {
+        background:  rgba(255, 255, 255, 0.17);
+        border: 1.2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 12px;
+        backdrop-filter: blur( 5px );
+        -webkit-backdrop-filter: blur( 5px );
+        width: 108px;
+        height: 108px;
+        margin: 13px 0 0 0;
+        transition: all 200ms;
+        cursor: pointer;
+        color: #929293;
+    }
+
+    .chooser h2 {
+        font-size: 35px;
+        margin: 10px 0 0 0;
+    }
+
+    .chooser h3 {
+        font-size: 20px;
+        margin: 5px 0 30px 0;
+    }
+
+    .chooser:hover {
+        transform: scale(102%);
+        filter: brightness(170%);
+    }
+
+    .chooser:active {
+        transform: scale(97%);
+    }
+
+    .impressum {
+        color: #929293;
+        position: absolute;
+        bottom: 5px;
+        right: 20px;
+        font-size: 15px;
+    }
+
+    .impressum:hover {
+        transform: scale(105%);
+        filter: brightness(120%);
+    }
+
+    .impressum:active {
+        transform: scale(97%);
+    }
+    .privacy {
+        color: #929293;
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+        font-size: 15px;
+    }
+}

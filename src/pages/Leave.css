@@ -1,0 +1,158 @@
+.leave_site {
+    background: var(--primary-bg);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 25px;
+    border: 2px solid var(--primary-border);
+    width: 850px;
+    margin: 0 0 50px 0;
+    box-sizing: border-box;
+    height: 170px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+.leave_site h2 {
+    font-size: 80px;
+    color: #929293;
+}
+
+.leave_row {
+    display: flex;
+    gap: 50px;
+}
+
+.leave_row button {
+    height: 170px;
+    width: 400px;
+    border-radius: 25px;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.leave {
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    background: rgba(255, 0, 0, 0.25);
+}
+
+.leave, .cancel svg {
+    font-size: 100px;
+    color: #929293;
+}
+
+.leave h2 {
+    color: #929293;
+    font-size: 60px;
+}
+
+.leave:hover {
+    transform: scale(102%);
+    filter: opacity(85%);
+}
+
+.leave:active {
+    transform: scale(97%);
+}
+
+.cancel {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.cancel h2 {
+    color: #929293;
+    font-size: 60px;
+}
+
+.cancel:hover {
+    transform: scale(102%);
+    filter: opacity(85%);
+}
+
+.cancel:active {
+    transform: scale(97%);
+}
+
+@media screen and (max-width: 460px){
+    .leave_site {
+        background: var(--primary-bg);
+        backdrop-filter: blur( 5px );
+        -webkit-backdrop-filter: blur( 5px );
+        border-radius: 15px;
+        border: 2px solid var(--primary-border);
+        width: 300px;
+        margin: 0 0 12px 0;
+        box-sizing: border-box;
+        height: 80px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        cursor: default;
+    }
+    .leave_site h2 {
+        font-size: 30px;
+        color: #929293;
+    }
+
+    .leave_row {
+        display: flex;
+        gap: 12px;
+    }
+
+    .leave_row button {
+        height: 80px;
+        width: 144px;
+        border-radius: 15px;
+        backdrop-filter: blur( 5px );
+        -webkit-backdrop-filter: blur( 5px );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 200ms;
+    }
+
+    .leave {
+        border: 2px solid rgba(255, 0, 0, 0.5);
+        background: rgba(255, 0, 0, 0.25);
+    }
+
+    .leave h2 {
+        color: #929293;
+        font-size: 20px;
+    }
+
+    .leave:hover {
+        transform: scale(102%);
+        filter: opacity(85%);
+    }
+
+    .leave:active {
+        transform: scale(97%);
+    }
+
+    .cancel {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.22);
+    }
+
+    .cancel h2 {
+        color: #929293;
+        font-size: 20px;
+    }
+
+    .cancel:hover {
+        transform: scale(102%);
+        filter: opacity(85%);
+    }
+
+    .cancel:active {
+        transform: scale(97%);
+    }
+}

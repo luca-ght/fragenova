@@ -1,0 +1,98 @@
+.privacy_area {
+    position: absolute;
+    max-height: 8vh;
+    overflow-y: scroll;
+    margin: 4rem;
+    top: 5rem;
+    padding-right: 10rem;
+}
+
+.privacy_area h2 {
+    color: #0b450b;
+}
+
+.privacy_area h3 {
+    color: #929293;
+}
+
+.privacy_area h4 {
+    color: #929293;
+}
+
+.privacy_area p {
+    color: #929293;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid #929293;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 460px){
+    .privacy_area {
+        position: absolute;
+        max-height: 80vh;
+        overflow-y: scroll;
+        top: 10px;
+        left: -40px;
+        padding-right: 130px;
+    }
+
+    .privacy_area h2 {
+        color: #0b450b;
+    }
+
+    .privacy_area h3 {
+        color: #929293;
+    }
+
+    .privacy_area h4 {
+        color: #929293;
+    }
+
+    .privacy_area p {
+        color: #929293;
+    }
+
+    ::-webkit-scrollbar {
+        width: 15px;
+
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid #929293;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 8px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #888;
+        cursor: pointer;
+    }
+}

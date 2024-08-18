@@ -1,0 +1,87 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.icon {
+    color: #929293;
+    background: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px 0 30px;
+    width: 75px;
+    height: 75px;
+    font-size: 40px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.icon:hover {
+    filter: brightness(1.7);
+    transform: scale(105%);
+}
+
+.color-icon {
+    transition: 200ms all;
+}
+
+.color-icon svg {
+    transition: 400ms all;
+ }
+
+.color-icon:hover > svg {
+    rotate: 25deg;
+}
+
+.icon:active {
+    transform: scale(97%);
+}
+
+@media screen and (max-width: 460px){
+    nav {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        right: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    .icon {
+        color: #929293;
+        background: rgba(255, 255, 255, 0.22);
+        backdrop-filter: blur( 5px );
+        -webkit-backdrop-filter: blur( 5px );
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px 0 10px;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        transition: all 200ms;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        filter: none;
+        transform: none;
+    }
+
+    .icon:active {
+        transform: scale(97%);
+    }
+}

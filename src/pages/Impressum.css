@@ -1,0 +1,39 @@
+.imp {
+    color: #929293;
+    font-size: 60px;
+    margin: 0 0 40px 0;
+    font-weight: 1000;
+}
+
+.imp1 {
+    color: #0b450b;
+    font-size: 45px;
+    margin: 20px 0 20px 0;
+ }
+
+.imp2 {
+    color: #929293;
+    font-size: 30px;
+    margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 460px){
+    .imp {
+        color: #929293;
+        font-size: 40px;
+        margin: 0 0 40px 0;
+        font-weight: 1000;
+    }
+
+    .imp1 {
+        color: #0b450b;
+        font-size: 25px;
+        margin: 20px 0 20px 0;
+    }
+
+    .imp2 {
+        color: #929293;
+        font-size: 15px;
+        margin: 10px 0 0 0;
+    }
+}

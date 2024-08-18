@@ -3,4 +3,36 @@ body, html {
     background-image: url("/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+    user-select: none;
+}
+
+:root {
+    --primary-bg: rgba(131,0,0,22%);
+    --primary-border: rgba(131,0,0,100%);
+}
+
+* {
+    font-family: "K2D", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+@media screen and (max-width: 460px){
+    body, html {
+        background-image: url("/handy.png");
+    }
 }
