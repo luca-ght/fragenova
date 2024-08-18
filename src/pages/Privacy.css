@@ -1,6 +1,6 @@
 .privacy_area {
     position: absolute;
-    max-height: 8vh;
+    height: 80vh;
     overflow-y: scroll;
     margin: 4rem;
     top: 5rem;
