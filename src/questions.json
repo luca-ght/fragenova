@@ -2287,5 +2287,21 @@
  {
     "title": "Aus welchem Land kommt das Unternehmen \"Ikea\"?",
     "answers": ["Schweden", "Norwegen", "Dänemark", "Finnland"]
+  },
+  {
+    "title": "Wie nennt man die erste Vergangenheitsform?",
+    "answers": ["Präteritum", "Perfekt ", "Plusquamperfekt ", ""]
+  },
+  {
+    "title": "Wie nennt man die zweite Vergangenheitsform?",
+    "answers": ["Perfekt ", "Plusquamperfekt ", "Präteritum", ""]
+  },
+  {
+    "title": "Wie nennt man die dritte Vergangenheitsform?",
+    "answers": ["Plusquamperfekt ", "Perfekt ", "Präteritum", ""]
+  },
+  {
+    "title": "Wie nennt man die Zeitform der Gegenwart?",
+    "answers": ["Präsens", "Plusquamperfekt", "Perfekt", "Präteritum"]
   }
 ]
