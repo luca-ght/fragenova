@@ -261,10 +261,6 @@
   },
    {
     "title": "Welches Gemüse wird auch Erdapfel genannt?",
-    "answers": ["", "", "", ""]
-  },
-   {
-    "title": "Welches Gemüse wird auch Erdapfel genannt?",
     "answers": ["Kartoffel", "Paprika", "Tomate", "Karotte"]
   },
    {
@@ -2290,15 +2286,15 @@
   },
   {
     "title": "Wie nennt man die erste Vergangenheitsform?",
-    "answers": ["Präteritum", "Perfekt ", "Plusquamperfekt ", ""]
+    "answers": ["Präteritum", "Perfekt ", "Plusquamperfekt ", "Präsens"]
   },
   {
     "title": "Wie nennt man die zweite Vergangenheitsform?",
-    "answers": ["Perfekt ", "Plusquamperfekt ", "Präteritum", ""]
+    "answers": ["Perfekt ", "Plusquamperfekt ", "Präteritum", "Präsens"]
   },
   {
     "title": "Wie nennt man die dritte Vergangenheitsform?",
-    "answers": ["Plusquamperfekt ", "Perfekt ", "Präteritum", ""]
+    "answers": ["Plusquamperfekt ", "Perfekt ", "Präteritum", "Präsens"]
   },
   {
     "title": "Wie nennt man die Zeitform der Gegenwart?",
