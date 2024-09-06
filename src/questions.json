@@ -2299,5 +2299,17 @@
   {
     "title": "Wie nennt man die Zeitform der Gegenwart?",
     "answers": ["Präsens", "Plusquamperfekt", "Perfekt", "Präteritum"]
+  },
+  {
+    "title": "Wie nannte man die Ureinwohner Australiens?",
+    "answers": ["Aborigines", "Māori", "Indianer", "Adivasi"]
+  },
+   {
+    "title": "Wie nannte man die Ureinwohner Neuseelands?",
+    "answers": ["Māori", "Aborigines", "Indianer", "Adivasi"]
+  },
+   {
+    "title": "Wie nannte man die Ureinwohner Amerikas?",
+    "answers": ["Indianer", "Adivasi", "Māori", "Aborigines"]
   }
 ]
