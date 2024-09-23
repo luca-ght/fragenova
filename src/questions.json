@@ -2311,5 +2311,9 @@
    {
     "title": "Wie nannte man die Ureinwohner Amerikas?",
     "answers": ["Indianer", "Adivasi", "Māori", "Aborigines"]
+  },
+   {
+    "title": "Welches dieser Tiere kann fliegen, ist aber kein Vogel?",
+    "answers": ["Fledermaus", "Adler", "Ente", "Eule"]
   }
 ]
