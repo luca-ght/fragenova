@@ -698,7 +698,7 @@
   },
    {
     "title": "Von welchem Kontinent begann die Verbreitung des Homo sapiens?",
-    "answers": ["Afrika", "Asien", "Europa", "Süd Amerika"]
+    "answers": ["Afrika", "Asien", "Europa", "Südamerika"]
   },
    {
     "title": "Wie viele Zähne hat ein Erwachsener Mensch?",
@@ -1878,7 +1878,7 @@
   },
  {
     "title": "Auf welchem Kontinent liegt die Sahara?",
-    "answers": ["Afrika", "Asien", "Süd Amerika", "Nord Amerika"]
+    "answers": ["Afrika", "Asien", "Südamerika", "Nordamerika"]
   },
  {
     "title": "In welchem Land stehen die Pyramiden von Gizeh?",
@@ -1901,7 +1901,7 @@
     "answers": ["Afrika", "Asien", "Europa", "Ozeanien"]
   },
  {
-    "title": "Welcher Ozean liegt zwischen Afrika und Süd Amerika?",
+    "title": "Welcher Ozean liegt zwischen Afrika und Südamerika?",
     "answers": ["Atlantik", "Pazifik", "Indischer Ozean", "Antarktischer Ozean"]
   },
  {
@@ -2230,15 +2230,15 @@
   },
  {
     "title": "Welcher ist der größte Kontinent der Welt?",
-    "answers": ["Asien", "Afrika", "Süd Amerika", "Nord Amerika"]
+    "answers": ["Asien", "Afrika", "Südamerika", "Nordamerika"]
   },
  {
     "title": "Welcher ist der zweitgrößte Kontinent der Welt?",
-    "answers": ["Afrika", "Asien", "Nord Amerika", "Süd Amerika"]
+    "answers": ["Afrika", "Asien", "Nordamerika", "Südamerika"]
   },
  {
     "title": "Welcher ist der kleinste Kontinent der Welt?",
-    "answers": ["Ozeanien", "Europa", "Nord Amerika", "Süd Amerika"]
+    "answers": ["Ozeanien", "Europa", "Nordamerika", "Südamerika"]
   },
  {
     "title": "Was ist das höchste Gebäude der Welt?",
