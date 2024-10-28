@@ -1710,11 +1710,11 @@
   },
  {
     "title": "Welches Land hat die meisten Einwohner?",
-    "answers": ["China", "Indien", "USA", "Russland"]
+    "answers": ["Indien", "China", "USA", "Russland"]
   },
  {
-    "title": "Welches Land hat nach China die meisten Einwohner?",
-    "answers": ["Indien", "Brasilien", "USA", "Russland"]
+    "title": "Welches Land hat nach Indien die meisten Einwohner?",
+    "answers": ["China", "Brasilien", "USA", "Russland"]
   },
  {
     "title": "Aus wie vielen Hauptinseln besteht Japan?",
