@@ -99,7 +99,7 @@
     background-color: rgba(255, 255, 255, 0.25);
     height: 30px;
     border-radius: 12px;
-    transition: 2s all linear;
+    transition: 1.3s all linear;
 }
 
 .progress-zero{

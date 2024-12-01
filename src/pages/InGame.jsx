@@ -85,7 +85,7 @@ export default function ({questionAmount, setCorrectAnswers, setPage, page}) {
                 setResultScreen(false);
                 setCountdownStarted(false);
                 pullNext();
-            }, 2000);
+            }, 1300);
 
             return () => clearTimeout(timeout);
         }
